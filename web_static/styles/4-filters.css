@@ -1,4 +1,4 @@
-section {
+section.filters{
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
@@ -20,5 +20,5 @@ section.filters button {
     right: 30px;
 }
 section.filters button:hover {
-    opacity: ;
+    opacity: 90%;
 }

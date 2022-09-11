@@ -34,6 +34,39 @@ section.filters div h4 {
     margin-top: 3px;
 }
 
+section.filters ul {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+section.filters ul.popover li {
+    line-height: 1.7em;
+}
+
+section.filters ul.popover > li > h2 {
+    margin-bottom: 1px;
+}
+
+section.filters ul.popover {
+    position: relative;
+    display: none;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -5px;
+    z-index: 1;
+}
+
+section.filters div:hover ul.popover {
+    display: block;
+}
+
+section.filters ul h2 {
+    font-size: 16px;
+}
+
 section.filters button {
     position: absolute;
     font-size: 18px;
