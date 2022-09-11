@@ -1,0 +1,11 @@
+body > header {
+    background-color: #FF0000;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+body > header > img {
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
