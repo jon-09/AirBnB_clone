@@ -4,27 +4,27 @@ section.places {
     flex-direction: row;
     justify-content: center;
     margin: 20px;
-}
-
-section.places h1 {
+  }
+  
+  section.places h1 {
     flex-basis: 100%;
     font-size: 30px;
     text-align: left;
     margin-bottom: 0px;
-}
-
-section.places article {
+  }
+  
+  section.places article {
     display: flex;
     flex-direction: column;
     width: 390px;
-    border: 1px solid #fff5af;
+    border: 1px solid #ff5a5f;
     border-radius: 4px;
     padding: 20px;
     margin: 20px;
-}
-
-section.places article h2 {
+  }
+  
+  section.places article h2 {
     text-align: center;
     width: 100%;
     font-size: 30px;
-}
+  }
